@@ -1,0 +1,65 @@
+
+*{
+margin: 0;
+padding: 0;
+}
+.Sidebar{
+    background-color: rgb(199, 51, 75);
+     width: 15vw;
+     height: 100vh;
+     font-family: sans-serif;
+} 
+.Sidebar nav{
+     padding: 45px;
+}
+.Sidebar nav li{
+     list-style: none;
+     font-size: 25px ;
+     padding: 33px 0;
+
+}
+.Main{
+     background: linear-gradient(white,rgb(241, 128, 147));
+     width: 85vw;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+}
+.container{
+     display: flex;
+}
+.Infocontainer{
+     height: 52vh;
+     width: 80vw;
+     margin: 144px auto;
+     display: flex;
+     justify-content: space-around;
+} 
+.devInfo{
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+
+}
+
+.Hello{
+     font-size: 30px;
+     font-family:"Pacifico",serif; 
+     font-weight: 200;
+     font-style: italic;
+}
+.name{
+     font-size: 45px;
+     font-family: "Pacifico",serif;
+}
+.about{
+     font-size: 25px;
+     font-family: "Dancing Script" ,serif;
+}
+.buttons{
+     margin-top: 34px;
+}
+.buttons button{} 
+.devPic img{
+     width: 550px;
+     height: 75vh;
+
+}
